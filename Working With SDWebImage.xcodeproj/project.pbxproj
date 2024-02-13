@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADB4FF5E1390D086BDB00A3E /* Pods_Working_With_SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EFCD11BBFC612D984A18D /* Pods_Working_With_SDWebImage.framework */; };
 		FA281C2D2B7B674500EDB7CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA281C2C2B7B674500EDB7CF /* AppDelegate.swift */; };
 		FA281C2F2B7B674500EDB7CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA281C2E2B7B674500EDB7CF /* SceneDelegate.swift */; };
 		FA281C312B7B674500EDB7CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA281C302B7B674500EDB7CF /* ViewController.swift */; };
 		FA281C342B7B674500EDB7CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA281C322B7B674500EDB7CF /* Main.storyboard */; };
 		FA281C362B7B674700EDB7CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA281C352B7B674700EDB7CF /* Assets.xcassets */; };
 		FA281C392B7B674700EDB7CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA281C372B7B674700EDB7CF /* LaunchScreen.storyboard */; };
+		FA281C452B7B68BD00EDB7CF /* DogCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA281C432B7B68BD00EDB7CF /* DogCollectionViewCell.swift */; };
+		FA281C462B7B68BD00EDB7CF /* DogCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA281C442B7B68BD00EDB7CF /* DogCollectionViewCell.xib */; };
+		FA281C482B7B697000EDB7CF /* DogData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA281C472B7B697000EDB7CF /* DogData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		344316942E551FBFF2BEA3BC /* Pods-Working With SDWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Working With SDWebImage.release.xcconfig"; path = "Target Support Files/Pods-Working With SDWebImage/Pods-Working With SDWebImage.release.xcconfig"; sourceTree = "<group>"; };
+		7CDAF289FFC87EA5C4C42668 /* Pods-Working With SDWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Working With SDWebImage.debug.xcconfig"; path = "Target Support Files/Pods-Working With SDWebImage/Pods-Working With SDWebImage.debug.xcconfig"; sourceTree = "<group>"; };
+		F21EFCD11BBFC612D984A18D /* Pods_Working_With_SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Working_With_SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA281C292B7B674500EDB7CF /* Working With SDWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Working With SDWebImage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA281C2C2B7B674500EDB7CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA281C2E2B7B674500EDB7CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		FA281C352B7B674700EDB7CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA281C382B7B674700EDB7CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA281C3A2B7B674700EDB7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA281C432B7B68BD00EDB7CF /* DogCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA281C442B7B68BD00EDB7CF /* DogCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DogCollectionViewCell.xib; sourceTree = "<group>"; };
+		FA281C472B7B697000EDB7CF /* DogData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB4FF5E1390D086BDB00A3E /* Pods_Working_With_SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52D16C8F894D69E560AD3EE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F21EFCD11BBFC612D984A18D /* Pods_Working_With_SDWebImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC0011DC3670ADEBC2752F8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CDAF289FFC87EA5C4C42668 /* Pods-Working With SDWebImage.debug.xcconfig */,
+				344316942E551FBFF2BEA3BC /* Pods-Working With SDWebImage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FA281C202B7B674500EDB7CF = {
 			isa = PBXGroup;
 			children = (
 				FA281C2B2B7B674500EDB7CF /* Working With SDWebImage */,
 				FA281C2A2B7B674500EDB7CF /* Products */,
+				AC0011DC3670ADEBC2752F8C /* Pods */,
+				52D16C8F894D69E560AD3EE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +87,41 @@
 			isa = PBXGroup;
 			children = (
 				FA281C2C2B7B674500EDB7CF /* AppDelegate.swift */,
-				FA281C2E2B7B674500EDB7CF /* SceneDelegate.swift */,
-				FA281C302B7B674500EDB7CF /* ViewController.swift */,
-				FA281C322B7B674500EDB7CF /* Main.storyboard */,
 				FA281C352B7B674700EDB7CF /* Assets.xcassets */,
-				FA281C372B7B674700EDB7CF /* LaunchScreen.storyboard */,
+				FA281C412B7B675F00EDB7CF /* Controller */,
 				FA281C3A2B7B674700EDB7CF /* Info.plist */,
+				FA281C372B7B674700EDB7CF /* LaunchScreen.storyboard */,
+				FA281C322B7B674500EDB7CF /* Main.storyboard */,
+				FA281C422B7B676B00EDB7CF /* Model */,
+				FA281C2E2B7B674500EDB7CF /* SceneDelegate.swift */,
+				FA281C402B7B675700EDB7CF /* View */,
 			);
 			path = "Working With SDWebImage";
+			sourceTree = "<group>";
+		};
+		FA281C402B7B675700EDB7CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA281C432B7B68BD00EDB7CF /* DogCollectionViewCell.swift */,
+				FA281C442B7B68BD00EDB7CF /* DogCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA281C412B7B675F00EDB7CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA281C302B7B674500EDB7CF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA281C422B7B676B00EDB7CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA281C472B7B697000EDB7CF /* DogData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA281C3D2B7B674700EDB7CF /* Build configuration list for PBXNativeTarget "Working With SDWebImage" */;
 			buildPhases = (
+				9BBC8352CE7A6C9FE6AA5B8A /* [CP] Check Pods Manifest.lock */,
 				FA281C252B7B674500EDB7CF /* Sources */,
 				FA281C262B7B674500EDB7CF /* Frameworks */,
 				FA281C272B7B674500EDB7CF /* Resources */,
+				5E2A9F69C4FD0699B1D594C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +187,53 @@
 				FA281C392B7B674700EDB7CF /* LaunchScreen.storyboard in Resources */,
 				FA281C362B7B674700EDB7CF /* Assets.xcassets in Resources */,
 				FA281C342B7B674500EDB7CF /* Main.storyboard in Resources */,
+				FA281C462B7B68BD00EDB7CF /* DogCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E2A9F69C4FD0699B1D594C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Working With SDWebImage/Pods-Working With SDWebImage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Working With SDWebImage/Pods-Working With SDWebImage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Working With SDWebImage/Pods-Working With SDWebImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BBC8352CE7A6C9FE6AA5B8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Working With SDWebImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA281C252B7B674500EDB7CF /* Sources */ = {
@@ -140,7 +242,9 @@
 			files = (
 				FA281C312B7B674500EDB7CF /* ViewController.swift in Sources */,
 				FA281C2D2B7B674500EDB7CF /* AppDelegate.swift in Sources */,
+				FA281C482B7B697000EDB7CF /* DogData.swift in Sources */,
 				FA281C2F2B7B674500EDB7CF /* SceneDelegate.swift in Sources */,
+				FA281C452B7B68BD00EDB7CF /* DogCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +388,7 @@
 		};
 		FA281C3E2B7B674700EDB7CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CDAF289FFC87EA5C4C42668 /* Pods-Working With SDWebImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +400,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +418,7 @@
 		};
 		FA281C3F2B7B674700EDB7CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 344316942E551FBFF2BEA3BC /* Pods-Working With SDWebImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +430,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
